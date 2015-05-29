@@ -2,10 +2,10 @@
 Restful web services - MongoDB
 
 
-GET
+GET List
 `curl -X GET 'http://localhost:3003/{collection}'`
 
-GET List
+GET Id
 `curl -X GET 'http://localhost:3003/{collection}/{id}'`
 
 POST
