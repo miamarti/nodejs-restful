@@ -5,6 +5,7 @@ var Host = require('./application/defaultHost')({
 });
 
 exports.domains = [
-	new Host('financial'),
-	new Host('reception')
+    new Host('financial'),
+    new Host('reception'),
+    new Host('customer')
 ];
