@@ -5,14 +5,12 @@ var config = require('../config'),
     session = require('express-session');
 
     app.post('/auth', require('body-parser').json(), function(req, res){
-        if(req.body._token === config.token){
-            require("./core")(app, config);
+        if(req.body._token === config.rootToken){
             res.json({auth: true});
         } else {
             res.json({auth: false});
         }
     });
 
+require("./core")(app, config);
 http.createServer(app).listen(3003);
-
-console.log('Your application is running !!!\nPlease performs authentication by sending the token as cURL below:\n$ curl \'http://localhost:3003/auth\' -X POST -H \'Content-Type: application/json\' --data-binary \'{"_token":"7e97189b91ec52a6274943c3277f57ac"}\'\n\n');

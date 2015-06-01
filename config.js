@@ -5,19 +5,10 @@ var Host = require('./application/defaultHost')({
 });
 
 /*
- * cURL Token Authentication
- * $ curl 'http://localhost:3003/auth'
- * -X POST
- * -H 'Content-Type: application/json'
- * --data-binary '{"_token":"7e97189b91ec52a6274943c3277f57ac"}'
- */
-exports.token = '7e97189b91ec52a6274943c3277f57ac';
-
-/*
  * Application Domains
  */
 exports.domains = [
-    new Host('financial'),
+    new Host('financial', '7e97189b91ec52a6274943c3277f57ac'), //_token
     new Host('reception'),
     new Host('customer')
 ];

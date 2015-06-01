@@ -1,5 +1,5 @@
 module.exports = function(config){
-	return function(entityCollection){
+	return function(entityCollection, token){
 		this.restRoot = '/' + entityCollection;
 		this.db = {
 			host: config.host,
@@ -9,5 +9,6 @@ module.exports = function(config){
 		};
 		this.authenticateMethod = require('body-parser').json();
 		this.ObjectID = require('mongodb').ObjectID;
+        this.token = token;
 	};
 };
