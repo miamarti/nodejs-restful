@@ -1,36 +1,32 @@
 {
-  "name": "noful-node-restful",
-  "version": "0.0.1",
-  "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]...",
+  "name": "node-js-getting-started",
+  "version": "0.1.3",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-        "express": ">=3.x",
-        "mongodb": ">=1.x",
-        "mongodb-wrapper": "0.4.x",
-        "body-parser": ">=0.x",
-        "bson": ">=0.x"
+    "express": "~4.9.x",
+    "mongodb": ">=1.x",
+    "mongodb-wrapper": "0.4.x",
+    "mongoose": ">=0.x",
+    "body-parser": ">=0.x",
+    "bson": ">=0.x",
+    "express-session": ">=0.x",
+    "http": ">=0.x"
   },
   "engines": {
     "node": "0.12.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miamarti/nodejs-restful.git"
+    "url": "https://github.com/heroku/node-js-getting-started"
   },
   "keywords": [
-    "rest",
-    "restful",
-    "server",
-    "express",
-    "mongodb"
+    "node",
+    "heroku",
+    "express"
   ],
-  "author": "Miller Augusto S. Martins",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/miamarti/nodejs-restful/issues"
-  },
-  "homepage": "http://miamarti.github.io/nodejs-restful/"
+  "license": "MIT"
 }
