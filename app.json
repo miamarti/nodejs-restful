@@ -1,0 +1,7 @@
+{
+  "name": "[NOFUL] NodeJS RESTFul",
+  "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]...",
+  "repository": "https://github.com/miamarti/nodejs-restful",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["rest", "restful", "server", "express", "mongodb"]
+}

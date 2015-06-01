@@ -4,7 +4,17 @@
   "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]...",
   "main": "index.js",
   "scripts": {
-    "test": "node ./application/app.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+        "express": ">=3.x",
+        "mongodb": ">=1.x",
+        "mongodb-wrapper": "0.4.x",
+        "body-parser": ">=0.x",
+        "bson": ">=0.x"
+  },
+  "engines": {
+    "node": "0.12.2"
   },
   "repository": {
     "type": "git",
@@ -18,16 +28,9 @@
     "mongodb"
   ],
   "author": "Miller Augusto S. Martins",
-  "license": "GNU",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/miamarti/nodejs-restful/issues"
   },
-  "homepage": "http://miamarti.github.io/nodejs-restful/",
-		"dependencies": {
-        "express": ">=3.x",
-        "mongodb": ">=1.x",
-        "mongodb-wrapper": "0.4.x",
-        "body-parser": ">=0.x",
-        "bson": ">=0.x"
-    }
+  "homepage": "http://miamarti.github.io/nodejs-restful/"
 }
