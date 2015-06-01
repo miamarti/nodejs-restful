@@ -1,14 +1,14 @@
 {
-  "name": "restful-server-express-mongodb",
-  "version": "0.0.3",
-  "description": "This is a configurable restful server based on expressjs and mongodb. It allow you to generate a restful service by simplely write a config file.",
-  "main": "index.js",
+  "name": "noful-node-restful",
+  "version": "0.0.1",
+  "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]...",
+  "main": "./application/app.js",
   "scripts": {
-    "test": "node example.js"
+    "test": "node ./application/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zyp001a/node-restful-server-express-mongodb.git"
+    "url": "https://github.com/miamarti/nodejs-restful.git"
   },
   "keywords": [
     "rest",
@@ -17,13 +17,12 @@
     "express",
     "mongodb"
   ],
-  "author": "Yuanpeng Zhou",
-  "license": "ISC",
+  "author": "Miller Augusto S. Martins",
+  "license": "GNU",
   "bugs": {
-    "url": "https://github.com/zyp001a/node-restful-server-express-mongodb/issues"
+    "url": "https://github.com/miamarti/nodejs-restful/issues"
   },
-  "homepage": "https://github.com/zyp001a/node-restful-server-express-mongodb",
-
+  "homepage": "http://miamarti.github.io/nodejs-restful/",
 		"dependencies": {
         "express": ">=3.x",
         "mongodb": ">=1.x",
@@ -31,5 +30,4 @@
         "body-parser": ">=0.x",
         "bson": ">=0.x"
     }
-
 }
