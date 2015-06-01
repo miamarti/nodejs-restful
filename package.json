@@ -2,7 +2,7 @@
   "name": "noful-node-restful",
   "version": "0.0.1",
   "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]...",
-  "main": "./application/app.js",
+  "main": "index.js",
   "scripts": {
     "test": "node ./application/app.js"
   },

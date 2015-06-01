@@ -1,1 +1,1 @@
-clear && node ./application/app.js
+clear && node index.js
