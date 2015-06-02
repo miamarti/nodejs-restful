@@ -51,7 +51,7 @@ p {
     line-height: 1.5;
 }
 
-.blade {
+#blade {
     display: none;
     position: fixed;
     width: 100%;
