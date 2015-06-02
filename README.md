@@ -1,4 +1,4 @@
-[![NOFUL Logo](http://miamarti.github.io/nodejs-restful/img/logo.png)](http://miamarti.github.io/nodejs-restful/)
+[![NOFUL Logo](http://miamarti.github.io/nodejs-restful/img/noful.png)](http://miamarti.github.io/nodejs-restful/)
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
