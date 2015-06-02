@@ -1,5 +1,4 @@
-# [NOFUL] NODEJS RESTFULL FRAMEWORK
-Start a NodeJS server with support for MongoDB in seconds using NOFUL...
+[![NOFUL Logo](http://miamarti.github.io/nodejs-restful/img/logo.png)](http://miamarti.github.io/nodejs-restful/)
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
