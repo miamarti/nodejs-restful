@@ -69,6 +69,26 @@ p {
   margin-top: 5%;
 }
 
+.ads{
+  position: fixed;
+  top: 250px;
+  z-index: 9999;
+  width: 100%;
+  left: 0px;
+  text-align: center;
+}
+
+.ads .blanket{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
 .bg-primary {
     background-color: #DB7C68; /*f05f40*/
 }
