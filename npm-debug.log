@@ -1,125 +1,57 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'express-session' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'adduser' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.38
 4 verbose node symlink /usr/bin/node
-5 verbose readDependencies using package.json deps
-6 verbose cache add [ 'express-session', null ]
-7 verbose cache add name=undefined spec="express-session" args=["express-session",null]
-8 verbose parsed url { protocol: null,
-8 verbose parsed url   slashes: null,
-8 verbose parsed url   auth: null,
-8 verbose parsed url   host: null,
-8 verbose parsed url   port: null,
-8 verbose parsed url   hostname: null,
-8 verbose parsed url   hash: null,
-8 verbose parsed url   search: null,
-8 verbose parsed url   query: null,
-8 verbose parsed url   pathname: 'express-session',
-8 verbose parsed url   path: 'express-session',
-8 verbose parsed url   href: 'express-session' }
-9 silly lockFile 6ca9c35e-express-session express-session
-10 verbose lock express-session /home/miller/.npm/6ca9c35e-express-session.lock
-11 silly lockFile 6ca9c35e-express-session express-session
-12 silly lockFile 6ca9c35e-express-session express-session
-13 verbose addNamed [ 'express-session', '' ]
-14 verbose addNamed [ null, '*' ]
-15 silly lockFile 03cac062-express-session express-session@
-16 verbose lock express-session@ /home/miller/.npm/03cac062-express-session.lock
-17 silly addNameRange { name: 'express-session', range: '*', hasData: false }
-18 verbose request where is /express-session
-19 verbose request registry https://registry.npmjs.org/
-20 verbose request id d8693844fd436770
-21 verbose url raw /express-session
-22 verbose url resolving [ 'https://registry.npmjs.org/', './express-session' ]
-23 verbose url resolved https://registry.npmjs.org/express-session
-24 verbose request where is https://registry.npmjs.org/express-session
-25 info trying registry request attempt 1 at 17:25:28
-26 verbose etag "IPLO4E4Q0KZK82FFK96ABFSV"
-27 http GET https://registry.npmjs.org/express-session
-28 http 200 https://registry.npmjs.org/express-session
-29 silly registry.get cb [ 200,
-29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-29 silly registry.get     etag: '"79Q7BK2IN5GZVZBQYHZJBDHUZ"',
-29 silly registry.get     'content-type': 'application/json',
-29 silly registry.get     'cache-control': 'max-age=60',
-29 silly registry.get     'content-length': '84666',
-29 silly registry.get     'accept-ranges': 'bytes',
-29 silly registry.get     date: 'Sun, 31 May 2015 20:25:29 GMT',
-29 silly registry.get     via: '1.1 varnish',
-29 silly registry.get     age: '12',
-29 silly registry.get     connection: 'keep-alive',
-29 silly registry.get     'x-served-by': 'cache-atl6235-ATL',
-29 silly registry.get     'x-cache': 'HIT',
-29 silly registry.get     'x-cache-hits': '1',
-29 silly registry.get     'x-timer': 'S1433103929.381909,VS0,VE1',
-29 silly registry.get     vary: 'Accept' } ]
-30 silly addNameRange number 2 { name: 'express-session', range: '*', hasData: true }
-31 silly addNameRange versions [ 'express-session',
-31 silly addNameRange   [ '1.0.0',
-31 silly addNameRange     '1.0.1',
-31 silly addNameRange     '1.0.2',
-31 silly addNameRange     '1.0.3',
-31 silly addNameRange     '1.0.4',
-31 silly addNameRange     '1.1.0',
-31 silly addNameRange     '1.2.0',
-31 silly addNameRange     '1.2.1',
-31 silly addNameRange     '1.3.0',
-31 silly addNameRange     '1.3.1',
-31 silly addNameRange     '1.4.0',
-31 silly addNameRange     '1.5.0',
-31 silly addNameRange     '1.5.1',
-31 silly addNameRange     '1.5.2',
-31 silly addNameRange     '1.6.0',
-31 silly addNameRange     '1.6.1',
-31 silly addNameRange     '1.6.2',
-31 silly addNameRange     '1.6.3',
-31 silly addNameRange     '1.6.4',
-31 silly addNameRange     '1.6.5',
-31 silly addNameRange     '1.7.0',
-31 silly addNameRange     '1.7.1',
-31 silly addNameRange     '1.7.2',
-31 silly addNameRange     '1.7.3',
-31 silly addNameRange     '1.7.4',
-31 silly addNameRange     '1.7.5',
-31 silly addNameRange     '1.7.6',
-31 silly addNameRange     '1.8.0',
-31 silly addNameRange     '1.8.1',
-31 silly addNameRange     '1.8.2',
-31 silly addNameRange     '1.9.0',
-31 silly addNameRange     '1.9.1',
-31 silly addNameRange     '1.9.2',
-31 silly addNameRange     '1.9.3',
-31 silly addNameRange     '1.10.0',
-31 silly addNameRange     '1.10.1',
-31 silly addNameRange     '1.10.2',
-31 silly addNameRange     '1.10.3',
-31 silly addNameRange     '1.10.4',
-31 silly addNameRange     '1.11.0',
-31 silly addNameRange     '1.11.1',
-31 silly addNameRange     '1.11.2' ] ]
-32 verbose addNamed [ 'express-session', '1.11.2' ]
-33 verbose addNamed [ '1.11.2', '1.11.2' ]
-34 silly lockFile 185c5f9f-express-session-1-11-2 express-session@1.11.2
-35 verbose lock express-session@1.11.2 /home/miller/.npm/185c5f9f-express-session-1-11-2.lock
-36 silly lockFile 185c5f9f-express-session-1-11-2 express-session@1.11.2
-37 silly lockFile 185c5f9f-express-session-1-11-2 express-session@1.11.2
-38 silly lockFile 03cac062-express-session express-session@
-39 silly lockFile 03cac062-express-session express-session@
-40 error Error: EACCES, open '/home/miller/.npm/express-session/1.11.2/package/package.json.6354'
-40 error  { [Error: EACCES, open '/home/miller/.npm/express-session/1.11.2/package/package.json.6354']
-40 error   errno: 3,
-40 error   code: 'EACCES',
-40 error   path: '/home/miller/.npm/express-session/1.11.2/package/package.json.6354',
-40 error   parent: 'restful-server-express-mongodb' }
-41 error Please try running this command again as root/Administrator.
-42 error System Linux 3.13.0-24-generic
-43 error command "/usr/bin/node" "/usr/bin/npm" "install" "express-session"
-44 error cwd /home/miller/git/nodejs-restful
-45 error node -v v0.10.38
-46 error npm -v 1.4.28
-47 error path /home/miller/.npm/express-session/1.11.2/package/package.json.6354
-48 error code EACCES
-49 error errno 3
-50 error stack Error: EACCES, open '/home/miller/.npm/express-session/1.11.2/package/package.json.6354'
-51 verbose exit [ 3, true ]
+5 verbose adduser before first PUT { name: 'miamarti',
+5 verbose adduser   password: 'XXXXX',
+5 verbose adduser   email: 'miller.augusto@gmail.com',
+5 verbose adduser   _id: 'org.couchdb.user:miamarti',
+5 verbose adduser   type: 'user',
+5 verbose adduser   roles: [],
+5 verbose adduser   date: '2015-06-02T15:44:57.193Z' }
+6 verbose request where is /-/user/org.couchdb.user:miamarti
+7 verbose request registry https://registry.npmjs.org/
+8 verbose request id 7911425e28af7971
+9 verbose url raw /-/user/org.couchdb.user:miamarti
+10 verbose url resolving [ 'https://registry.npmjs.org/',
+10 verbose url resolving   './-/user/org.couchdb.user:miamarti' ]
+11 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:miamarti
+12 verbose request where is https://registry.npmjs.org/-/user/org.couchdb.user:miamarti
+13 info trying registry request attempt 1 at 12:44:57
+14 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:miamarti
+15 http 400 https://registry.npmjs.org/-/user/org.couchdb.user:miamarti
+16 verbose headers { 'content-type': 'application/json',
+16 verbose headers   'cache-control': 'max-age=60',
+16 verbose headers   'content-length': '57',
+16 verbose headers   'accept-ranges': 'bytes',
+16 verbose headers   date: 'Tue, 02 Jun 2015 15:44:58 GMT',
+16 verbose headers   via: '1.1 varnish',
+16 verbose headers   connection: 'keep-alive',
+16 verbose headers   'x-served-by': 'cache-atl6227-ATL',
+16 verbose headers   'x-cache': 'MISS',
+16 verbose headers   'x-cache-hits': '0',
+16 verbose headers   'x-timer': 'S1433259898.496615,VS0,VE309' }
+17 verbose adduser back [ [Error: Unknown error while authenticating : -/user/org.couchdb.user:miamarti],
+17 verbose adduser   { ok: false, error: 'Unknown error while authenticating' },
+17 verbose adduser   '{"ok":false,"error":"Unknown error while authenticating"}' ]
+18 error Error: Unknown error while authenticating : -/user/org.couchdb.user:miamarti
+18 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+18 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+18 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:236:22)
+18 error     at Request.emit (events.js:98:17)
+18 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+18 error     at Request.emit (events.js:117:20)
+18 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+18 error     at IncomingMessage.emit (events.js:117:20)
+18 error     at _stream_readable.js:944:16
+18 error     at process._tickCallback (node.js:448:13)
+19 error If you need help, you may report this *entire* log,
+19 error including the npm and node versions, at:
+19 error     <http://github.com/npm/npm/issues>
+20 error System Linux 3.13.0-24-generic
+21 error command "/usr/bin/node" "/usr/bin/npm" "adduser"
+22 error cwd /home/miller/git/nodejs-restful
+23 error node -v v0.10.38
+24 error npm -v 1.4.28
+25 verbose exit [ 1, true ]
