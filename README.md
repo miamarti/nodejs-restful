@@ -1,15 +1,14 @@
-# nodejs-restful
-Restful web services - MongoDB
+# [NOFUL] NODEJS RESTFULL FRAMEWORK
+Start a NodeJS server with support for MongoDB in seconds using NOFUL...
 
+Preparing oparacional system:
 
-GET List
-`curl -X GET 'http://localhost:3003/{collection}'`
+`$ sudo apt-get install build-essential`
 
-GET Id
-`curl -X GET 'http://localhost:3003/{collection}/{id}'`
+`$ npm cache clean`
 
-POST
-`curl -X POST 'http://localhost:3003/{collection}' -H 'Content-Type: application/json' --data-binary '{"name":"xxxxx"}'`
+--
 
-DELETE
-`curl -X DELETE 'http://localhost:3003/{collection}/{id}'`
+Installing NOFUL
+
+`$ sudo npm install noful --save`
