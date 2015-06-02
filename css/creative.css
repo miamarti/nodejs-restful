@@ -51,6 +51,17 @@ p {
     line-height: 1.5;
 }
 
+.blade {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: RGBA(0,0,0,0.8);
+    z-index: 9999;
+}
+
 .bg-primary {
     background-color: #DB7C68; /*f05f40*/
 }
