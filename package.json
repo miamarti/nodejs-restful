@@ -1,8 +1,10 @@
 {
   "name": "noful",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]",
   "main": "index.js",
+  "author": "Miller Augusto S. Martins <miller.augusto@gmail.com>",
+  "contributors": ["Juliete Ap."],
   "scripts": {
     "start": "node index.js"
   },
@@ -33,5 +35,6 @@
     "bson",
     "node-gyp"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "http://miamarti.github.io/nodejs-restful/"
 }
