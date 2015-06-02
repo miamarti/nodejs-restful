@@ -1,1 +1,0 @@
-clear && node index.js
