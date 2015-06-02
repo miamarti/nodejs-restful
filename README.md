@@ -2,11 +2,11 @@
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
-Preparing oparacional system:
+### Preparing oparacional system
 
 ```bash
-$ sudo apt-get install build-essential`
-$ npm cache clean`
+$ sudo apt-get install build-essential
+$ npm cache clean
 ```
 
 --
@@ -14,7 +14,7 @@ $ npm cache clean`
 ## Installation
 
 ```bash
-$ sudo npm install noful --save`
+$ sudo npm install noful --save
 ```
 
 ## Docs & Community
