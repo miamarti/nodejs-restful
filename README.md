@@ -7,6 +7,8 @@ Preparing oparacional system:
 
 `$ npm cache clean`
 
+--
+
 Installing NOFUL
 
 `$ sudo npm install noful --save`
