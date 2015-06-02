@@ -53,8 +53,7 @@ module.exports = function(app, db, config) {
 						if (err) {
 							res.send({'error':'An error has occurred'});
 						} else {
-							console.log('Success: ' + JSON.stringify(result[0]));
-							res.send(result[0]);
+							res.send(result);
 						}
 					});
 				});
@@ -75,12 +74,9 @@ module.exports = function(app, db, config) {
 				var id = req.params.id;
 				var entity = req.body;
 				entity.$set?delete entity.$set._id:delete entity._id;
-				console.log('Updating entity: ' + id);
-				console.log(JSON.stringify(entity));
 				db.collection(entityCollection, function(err, collection) {
 					collection.update({'_id': new config.ObjectID(id)}, entity, {safe:true}, function(err, result) {
 						if (err) {
-							console.log('Error updating entity: ' + err);
 							res.send({'error':'An error has occurred'});
 						} else {
 							console.log('' + result + ' document(s) updated');
@@ -103,14 +99,11 @@ module.exports = function(app, db, config) {
 		deleteEntity: function(req, res) {
             var carry = function(){
 				var id = req.params.id;
-				console.log('Deleting entity: ' + id);
 				db.collection(entityCollection, function(err, collection) {
-					console.log(new config.ObjectID(id));
 					collection.remove({'_id': new config.ObjectID(id)}, {safe:true}, function(err, result) {
 						if (err) {
 							res.send({'error':'An error has occurred - ' + err});
 						} else {
-							console.log('' + result + ' document(s) deleted');
 							res.send(req.body);
 						}
 					});

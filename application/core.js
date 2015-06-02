@@ -17,11 +17,11 @@ module.exports = function(app, config) {
         var utils = require('./utils')(app, db, domain);
         db.open(function(err, db) {
             if (!err){
-                console.log('========================================================');
+                console.log('============================================================================');
                 console.log('The ' + domain.restRoot  + ' domain was instantiated:');
                 console.log('Connected to database:' + domain.db.database + "." + domain.db.entityCollection);
                 console.log('-->> http://localhost:3003/' + domain.db.entityCollection + ((domain.token !== undefined)?('?_token=' + domain.token):''));
-                console.log('========================================================');
+                console.log('============================================================================');
                 console.log('\n');
             }
         });
