@@ -1,12 +1,6 @@
-[![NOFUL Logo](http://miamarti.github.io/nodejs-restful/img/logo.png)](http://miamarti.github.io/nodejs-restful/)
+[![NOFUL Logo](https://raw.githubusercontent.com/miamarti/nodejs-restful/gh-pages/img/logo.png)](http://miamarti.github.io/nodejs-restful/)
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
-
-  [![NPM Version][npm-image]][npm-url]
-  [![NPM Downloads][downloads-image]][downloads-url]
-  [![Linux Build][travis-image]][travis-url]
-  [![Windows Build][appveyor-image]][appveyor-url]
-  [![Test Coverage][coveralls-image]][coveralls-url]
 
 Preparing oparacional system:
 
