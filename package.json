@@ -1,6 +1,6 @@
 {
   "name": "noful",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "express",
     "mongodb",
     "node",
+    "bson",
     "node-gyp"
   ],
   "license": "MIT"
