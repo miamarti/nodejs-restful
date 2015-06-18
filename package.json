@@ -1,22 +1,25 @@
 {
   "name": "noful",
-  "version": "0.2.3",
+  "version": "0.2.7",
   "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]",
   "main": "index.js",
   "author": "Miller Augusto S. Martins <miller.augusto@gmail.com>",
-  "contributors": ["Juliete Ap."],
+  "contributors": [
+    "Juliete Ap."
+  ],
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "body-parser": ">=0.x",
+    "bson": ">=0.x",
     "express": "~4.9.x",
+    "express-session": ">=0.x",
+    "http": ">=0.x",
     "mongodb": ">=1.x",
     "mongodb-wrapper": "0.4.x",
     "mongoose": ">=0.x",
-    "body-parser": ">=0.x",
-    "bson": "*",
-    "express-session": ">=0.x",
-    "http": ">=0.x"
+    "kerberos": ">=0.x"
   },
   "engines": {
     "node": "0.12.2"
