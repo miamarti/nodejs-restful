@@ -14,6 +14,8 @@ $ npm cache clean
 ## Installation
 
 ```bash
+$ sudo apt-get install nodejs
+$ sudo apt-get install nodejs-legacy
 $ sudo npm install noful --save
 ```
 
