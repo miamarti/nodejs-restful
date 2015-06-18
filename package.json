@@ -1,6 +1,6 @@
 {
   "name": "noful",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "description": "Start a NodeJS server with support for MongoDB in seconds using [NOFUL]",
   "main": "index.js",
   "author": "Miller Augusto S. Martins <miller.augusto@gmail.com>",
