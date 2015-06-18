@@ -14,7 +14,7 @@
     "mongodb-wrapper": "0.4.x",
     "mongoose": ">=0.x",
     "body-parser": ">=0.x",
-    "bson": ">=0.x",
+    "bson": "*",
     "express-session": ">=0.x",
     "http": ">=0.x"
   },
