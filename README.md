@@ -2,6 +2,14 @@
 
   Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).
 
+<p>
+  <img src="https://img.shields.io/badge/nodejs--restful-release-green.svg">
+  <img src="https://img.shields.io/badge/version-0.3.2-blue.svg">
+  <img src="https://img.shields.io/npm/v/npm.svg">
+  <img src="https://img.shields.io/node/v/gh-badges.svg">
+  <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+</p>
+
 ### Preparing oparacional system
 
 ```bash
