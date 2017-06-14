@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/npm/v/npm.svg">
   <img src="https://img.shields.io/node/v/gh-badges.svg">
   <img src="https://img.shields.io/github/license/mashape/apistatus.svg">
+  <a href="https://github.com/miamarti/nodejs-restful/tarball/master"><img src="https://img.shields.io/github/downloads/atom/atom/latest/total.svg"></a>
 </p>
 
 ### Preparing oparacional system
